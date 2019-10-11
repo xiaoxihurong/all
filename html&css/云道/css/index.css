@@ -1,0 +1,68 @@
+
+*{margin: 0;padding: 0;}
+ul li{list-style: none;}
+a{text-decoration: none}
+h1{font-weight: normal;}
+body{height: 3000px;}
+.clearfix:after {  content: ""; display: block; height: 0; clear: both; visibility: hidden;  }   
+
+/*导航栏*/
+.daohang{width: 1200px;height: 100px;margin: 0 auto;line-height: 100px;}
+.daohang .logo{width: 221px;height: 100px;float: left;}
+.daohang ul{float: right;}
+.daohang ul li{float: left;font-size: 16px;font-family: "微软雅黑";color: #333;margin: 0 20px;}
+.daohang li a:hover{color: #2288f6;}
+/*导航栏*/
+
+/*banner*/
+.banner{height: 620px;background: url(../images/banner.jpg) no-repeat top center;}
+
+/*营销开始*/
+.ha {background-color: #fafafa;}
+.yingxiao{height: 715px;width: 1060px;margin: 0 auto; padding: 75px 70px 0;}
+/*top*/
+.top{border-top:1px solid #ccc;margin:0 auto;/*border-bottom:1px solid black;*/}
+.top p{font-size: 12px;color: #666;line-height: 26px;margin: 28px auto 0;width:830px;text-align: center;}
+.top h3{width: 167px;height: 46px;margin: -15px auto 0;}
+
+/*bottom*/
+.bottom {margin-top: 50px;}
+.bottom ul li{float: left;width: 320px;height: 510px;border: 1px solid #e7e8e9;background-color: #fff;}
+.bottom li p{font-size: 12px; line-height: 26px;color: #d4d4d4;margin:15px 40px 35px;}
+.bottom li h3{font-size: 18px;color: #666;text-align: center;}
+.bottom li img{margin:40px 35px;height: 132px;width: 250px;}
+.bottom li a {display: block; width: 150px;height: 38px;background-color: #fff;font-size: 14px;color: #ff9412; 
+			  line-height: 38px;text-align: center;border-radius: 5px;margin:0 auto;border: 1px solid #ff9412}
+.bottom li a:hover{background-color: #ff9412;color: #fff;}
+.bottom .cent{margin: 0 24px;}
+/*营销结束*/
+/*经典案例开始*/
+.hb {background-color: #fff;}
+.anli{width: 1060px;margin:0 auto ;height: 370px;padding-top: 60px;}
+.foot{position: relative;}
+.anli  ul li{width: 322px;height: 211px;float: left;margin-top: 80px;position: relative;}
+ul .cent{margin:0 40px;}
+.foot .text{height: 45px;width: 100%; position: absolute;left: 0;bottom: 0;text-align: center;font-size: 12px;color: #fff;
+			background: rgb(0,0,0,.4);line-height: 45px;}
+.mask {width: 100%; height: 100%;background: rgba(0,0,0,.4) url(../images/fdj.png) no-repeat center;position: absolute;top: 0;
+	left: 0; display: none;}
+.foot li:hover .mask{display: block;}
+.left,.right{width: 60px;height: 60px; background: rgba(0,0,0,.6);display: block;text-align: center;line-height: 60px;color: #fff;
+	text-decoration: none;font-size: 25px;border-radius: 50%;position: absolute;top: 50%;}
+.left {left: -90px;}
+.right {right: -90px;}
+/*经典案例结束*/
+/*合作单位开始*/
+.ht{background-color: #fafafa;}
+.hezuo{width: 1060px;margin: 0 auto;height: 570px;padding-top: 50px}
+.zuo{margin-top: 50px;}
+.zuo ul{width: 1060px;}
+.zuo li {float: left;width: 210px;height: 60px;border-right: 1px dashed #ccc;border-bottom: 1px dashed #ccc;padding-top: 20px;text-align: center;}
+.qie{width: 1050px;height: 240px;overflow: hidden;}
+/*合作单位结束*/
+/*页面底部开始啦*/
+.footer{background-color: #212425;height: 170px;overflow: hidden;}
+.subnav{margin: 50px auto 20px;width: 1060px;text-align: center;color: #f0f1f1;}
+.subnav a{color: #f0f1f1;font-size: 14px;text-align: center;margin:0 5px;}
+.footer p{text-align: center;color:#888;font-size: 14px;}
+.subnav a:hover{color: #2288f6;}

@@ -1,0 +1,20 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.banner{width: 540px;height: 260px; margin: 0 auto 10px;overflow: hidden;border-radius: 5px;}
+.row{min-width: 540px;width: 530px;height: 90px;margin: 6px auto;border-radius: 5px;
+	overflow: hidden;display: flex;}
+.row1{background-color: #FF697A;} 
+.row div{flex: 1;border-right: 1px solid #fff;text-align: center;line-height: 45px; color: #fff;
+			text-shadow: 2px 2px 1px rgba(0,0,0,.3);}
+.row div:nth-child(3){border-right: 0;}
+.row .ff{display: flex;flex-direction: column;}
+.ff div{flex: 1;border-bottom: 1px solid #fff;}
+.ff div:nth-child(2){border-bottom: 0;}
+.row .pic{display: block; width: 43px;height: 43px;margin: -5px auto 0;
+			background: url(../images/ctrip.png) no-repeat;
+			background-size: 104px auto;background-position: 0 -126px;}
+.row2{background-color: #3D98FF;}
+.row2 .pic{background-position: 0 -285px;}
+.row3{background-color: #44C522;}
+.row3 .pic{background-position: 0 -180px;}
+.row4{background-color: #FC9720;}
+

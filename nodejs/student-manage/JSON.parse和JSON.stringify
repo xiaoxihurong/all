@@ -1,0 +1,31 @@
+
+console.log(JSON.parse(data))
+var students=JSON.parse(data).students
+console.log(students)
+console.log(JSON.stringify({students:students}))
+
+
+{
+  students: [
+    { id: 1, name: '张一', gender: '0', age: '20', hobbies: '吃饭、睡觉' },
+    { id: 2, name: '张二', gender: '1', age: '21', hobbies: '吃饭、睡觉、打豆豆' },
+    { id: 3, name: '张三', gender: '0', age: '22', hobbies: '吃饭、睡觉、打豆豆' },
+    { id: 4, name: '张四', gender: '1', age: '23', hobbies: '吃饭、睡觉、打豆豆' }
+  ]
+}
+
+
+[
+  { id: 1, name: '张一', gender: '0', age: '20', hobbies: '吃饭、睡觉' },
+  { id: 2, name: '张二', gender: '1', age: '21', hobbies: '吃饭、睡觉、打豆豆' },
+  { id: 3, name: '张三', gender: '0', age: '22', hobbies: '吃饭、睡觉、打豆豆' },
+  { id: 4, name: '张四', gender: '1', age: '23', hobbies: '吃饭、睡觉、打豆豆' }
+]
+
+
+{"students":[
+    {"id":1,"name":"张一","gender":"0","age":"20","hobbies":"吃饭、睡觉"},
+    {"id":2,"name":"张二","gender":"1","age":"21","hobbies":"吃饭、睡觉、打豆豆"},
+    {"id":3,"name":"张三","gender":"0","age":"22","hobbies":"吃饭、睡觉、打豆豆"},
+    {"id":4,"name":"张四","gender":"1","age":"23","hobbies":"吃饭、睡觉、打豆豆"}
+]}
